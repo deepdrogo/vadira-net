@@ -2,7 +2,7 @@
 
 <img src="assets/banner.svg" width="100%" alt="Vadira — Advanced Ethereum transactions, refined."/>
 
-<br/><br/>
+<br/>
 
 <img src="assets/icon.png" width="96" alt="Vadira icon"/>
 
