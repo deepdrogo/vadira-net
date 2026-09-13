@@ -42,18 +42,18 @@
 
 ## 🧭 Overview
 
-VADIRA is an advanced, non-custodial Ethereum ERC-20 transaction platform designed for professionals. It gives you full control over your token transactions with precision gas settings — curated presets and custom values for gas price and gas limit — for optimal cost and confirmation.
+**VADIRA is a professional, non-custodial Ethereum transaction workspace.** It combines ERC-20 token management, balances, transaction history and precision gas controls in one console, while the signing key remains encrypted under a password known only to the user.
 
-Private keys are encrypted with a password only you know, using strong cryptography. Non-custodial by design: the platform connects through multiple Ethereum nodes and RPC providers for maximum reliability and speed, supports all ERC-20 tokens with custom token management and automatic balance tracking, and shows live gas price, network status and detailed transaction history.
+Every transfer can use a curated gas preset — slow, recommended, fast or rapid — or a custom Gwei value and gas limit. VADIRA resolves recipients, estimates the fee, tracks the account nonce and broadcasts the signed transaction through several Ethereum nodes and RPC providers so one provider is not a single point of failure.
 
-Two subscription tiers are offered — a Public Server for individual professionals (unlimited transactions, 3000+ global nodes, one user account) and a Private Server for enterprise-level operations (advanced developer mode, unlimited global nodes, VIP merchant network, dynamic server rotation, up to 30 team members) — backed by dedicated account managers and 24/7 priority support.
+The current release has **one all-inclusive plan** rather than the previous public/private tier split: **$500 for 30 days**, unlimited transactions and all features included. Create an account without a KYC form, top up the prepaid USD balance in supported cryptocurrency through DrogoPay, and activate instantly after on-chain confirmation. Renewals stack on top of remaining days.
 
 <table>
 <tr>
 <td align="center" width="25%"><b>Category</b><br/><sub>Utilities</sub></td>
 <td align="center" width="25%"><b>Status</b><br/><sub>Live</sub></td>
 <td align="center" width="25%"><b>Bundle</b><br/><sub>Utilities (−2%)</sub></td>
-<td align="center" width="25%"><b>Pricing</b><br/><sub>Sign in to see pricing</sub></td>
+<td align="center" width="25%"><b>Pricing</b><br/><sub>$500 / 30 days</sub></td>
 </tr>
 </table>
 
@@ -61,29 +61,41 @@ Two subscription tiers are offered — a Public Server for individual profession
 
 ## ✨ Key features
 
-### ⛽ Transaction control
+### ⛽ Precision transaction control
 
-- **Custom Gas Settings** — full control over gas price and gas limit with curated presets and custom values for optimal cost and confirmation.
-- **ERC-20 Support** — all ERC-20 tokens with custom token management and automatic balance tracking.
-- **Unlimited transactions** on every plan.
+- **Gas presets and custom Gwei** — slow, recommended, fast, rapid or a value you choose.
+- **Gas-limit control and fee estimate** — review the projected network cost before signing.
+- **Recipient resolution** — work with Ethereum addresses and resolved names where available.
+- **Nonce and confirmation visibility** — see signing context, broadcast result and recent confirmations in the same workspace.
+- **Unlimited transactions** during the active 30-day access period.
 
-### 🔐 Security
+### 🔐 Non-custodial key model
 
-- **Secure Key Management** — private keys encrypted with a password only you know, using strong cryptography.
-- **Non-custodial by design** — you hold the keys.
-- **AES-grade encryption**.
+- **Password-encrypted key vault** — keys are sealed at rest under the user's password.
+- **In-memory signing** — the documented flow decrypts a selected key only for local signing, then broadcasts the signed transaction.
+- **VADIRA does not hold funds or keys** — assets stay under the user's Ethereum accounts.
+- **Security context on every transaction** — selected key, nonce, current gas and estimated fee are visible before broadcast.
 
 ### 🌐 Network
 
-- **Multi-Node Network** — connect through multiple Ethereum nodes and RPC providers for maximum reliability and speed.
-- **3000+ global nodes** (Public Server) · **unlimited global nodes** and **dynamic server rotation** (Private Server).
-- **Real-time Monitoring** — live gas price and network status with transaction history and detailed insights.
+- **Multiple Ethereum nodes and RPC providers** — failover and routing for reliability and speed.
+- **3,000+ global nodes** included in the current plan.
+- **Real-time gas and network status** — make the speed/cost decision with current conditions visible.
+- **Transaction history and export** — retain an operational record and take it into downstream reporting.
 
-### 🏢 Enterprise & support
+### 🪙 Tokens, billing & activation
 
-- **Private Server** — advanced developer mode, VIP merchant network, dedicated VIP support, up to 30 team members.
-- **24/7 Priority Support** — dedicated account managers and priority assistance whenever you need it.
-- **Documentation Hub** — platform overview, step-by-step user guide, technical reference and FAQ.
+- **All ERC-20 tokens** — add custom contracts and track balances in one console.
+- **Automatic balance credit** through DrogoPay after the selected chain confirms.
+- **Supported top-ups** — BTC, ETH, SOL, BNB, TRX, USDT and USDC.
+- **Instant one-click activation** from Billing once the prepaid balance covers the plan.
+- **Early extension without lost days** — each renewal adds another 30 days to the remaining term.
+
+### 🤝 Professional operations
+
+- **Merchant directory** included with the platform.
+- **Dedicated account manager and 24/7 priority support**.
+- **No tiers or add-ons** — the entire feature set is included in VADIRA Access.
 
 <img src="assets/divider.svg" width="100%" height="4" alt=""/>
 
@@ -91,28 +103,39 @@ Two subscription tiers are offered — a Public Server for individual profession
 
 > Product images from [vadira.net](https://vadira.net/) and the [service page](https://drogoz.network/services/vadira/) on drogoz.network.
 
-<p align="center"><img src="assets/vadira-hero.png" width="100%" alt="VADIRA — Advanced Ethereum transactions, refined"/><br/><sub>VADIRA — Advanced Ethereum transactions, refined</sub></p>
+<table>
+<tr>
+<td width="50%" align="center"><img src="assets/vadira-hero.png" alt="VADIRA — Advanced Ethereum transactions, refined"/><br/><sub>VADIRA — Advanced Ethereum transactions, refined</sub></td>
+<td width="50%" align="center"><img src="assets/vadira-features.png" alt="The complete platform feature set — gas control, encrypted keys, ERC-20 support, multi-node routing and monitoring"/><br/><sub>The complete platform feature set — gas control, encrypted keys, ERC-20 support, multi-node routing and monitoring</sub></td>
+</tr>
+<tr>
+<td width="50%" align="center"><img src="assets/vadira-how.png" alt="Create an account, top up in crypto, then activate and transact"/><br/><sub>Create an account, top up in crypto, then activate and transact</sub></td>
+<td width="50%" align="center"><img src="assets/vadira-pricing.png" alt="One all-inclusive plan — $500 for 30 days, unlimited transactions and every feature"/><br/><sub>One all-inclusive plan — $500 for 30 days, unlimited transactions and every feature</sub></td>
+</tr>
+<tr>
+<td colspan="2" align="center"><img src="assets/vadira-faq.png" alt="Current answers for plan coverage, payment, custody, activation, extension and refunds"/><br/><sub>Current answers for plan coverage, payment, custody, activation, extension and refunds</sub></td>
+</tr>
+</table>
 
 <img src="assets/divider.svg" width="100%" height="4" alt=""/>
 
 ## ⚙️ How it works
 
-**Architecture — non-custodial, multi-node**
+**From account creation to an on-chain ERC-20 confirmation**
 
 ```mermaid
 %%{init: {'theme': 'dark', 'themeVariables': { 'primaryColor': '#1a1a1a', 'primaryTextColor': '#ffffff', 'primaryBorderColor': '#c9a855', 'lineColor': '#c9a855', 'secondaryColor': '#0d0d0d', 'tertiaryColor': '#0d0d0d', 'clusterBkg': '#0d0d0d', 'clusterBorder': '#404040', 'edgeLabelBackground': '#0d0d0d', 'fontFamily': 'Inter, Segoe UI, sans-serif' } } }%%
 flowchart LR
-    U["You<br/>password-encrypted private key"] --> V["VADIRA workspace<br/>token management · balances · history"]
-    V --> G["Gas control<br/>presets or custom gas price / limit"]
-    G --> T["Signed ERC-20 transaction"]
-    T --> N{"Multi-node network<br/>multiple Ethereum nodes & RPC providers"}
-    N --> E["Ethereum network"]
-    E -. "live gas price · network status · confirmations" .-> V
-    subgraph Plans["Plans"]
-        direction LR
-        P1["Public Server<br/>3000+ nodes · 1 user"] 
-        P2["Private Server<br/>unlimited nodes · rotation · up to 30 members"]
-    end
+    A["1 · Create account<br/>username + strong password · no KYC form"] --> B["2 · Top up balance<br/>BTC · ETH · SOL · BNB · TRX · USDT · USDC"]
+    B --> C["DrogoPay watches the chain<br/>balance auto-credited after confirmation"]
+    C --> D["3 · Activate VADIRA Access<br/>$500 · 30 days · all features"]
+    D --> E["Add encrypted signing key<br/>and ERC-20 token"]
+    E --> F["Choose recipient + amount"]
+    F --> G["Gas preset or custom Gwei<br/>review nonce + estimated fee"]
+    G --> H["Sign in memory"]
+    H --> I{"Multi-node RPC layer<br/>multiple providers · 3,000+ nodes"}
+    I --> J["Ethereum Mainnet"]
+    J -. "broadcast · confirmations · gas status" .-> E
 ```
 
 <img src="assets/divider.svg" width="100%" height="4" alt=""/>
@@ -121,12 +144,16 @@ flowchart LR
 
 <table>
 <tr>
-<td width="50%" valign="top"><b>👤 Individual professionals</b><br/><sub>Unlimited ERC-20 transactions with precise gas control on the Public Server.</sub></td>
-<td width="50%" valign="top"><b>🏢 Enterprise operations</b><br/><sub>Private Server with developer mode, VIP merchant network and up to 30 team members.</sub></td>
+<td width="50%" valign="top"><b>👤 Professional operators</b><br/><sub>Manage keys, custom ERC-20 tokens, balances and unlimited transfers from one transaction console.</sub></td>
+<td width="50%" valign="top"><b>🏢 Treasury workflows</b><br/><sub>Select the right signing key, validate the recipient and fee, then retain the result in exportable history.</sub></td>
 </tr>
 <tr>
 <td width="50%" valign="top"><b>💹 Cost-sensitive transfers</b><br/><sub>Curated gas presets or custom values to balance cost against confirmation time.</sub></td>
-<td width="50%" valign="top"><b>🔑 Self-custody</b><br/><sub>Keys encrypted with a password only you know — the platform never holds them in the clear.</sub></td>
+<td width="50%" valign="top"><b>⚡ Time-sensitive transfers</b><br/><sub>Choose fast or rapid gas and route through multiple providers when confirmation speed matters.</sub></td>
+</tr>
+<tr>
+<td width="50%" valign="top"><b>🔑 Self-custody</b><br/><sub>Keep funds under user-controlled Ethereum keys while using the platform for signing and broadcast workflow.</sub></td>
+<td width="50%" valign="top"><b>📊 Audit and reporting</b><br/><sub>Monitor transaction status and export history for reconciliation or operational review.</sub></td>
 </tr>
 </table>
 
@@ -134,7 +161,7 @@ flowchart LR
 
 ## 💳 Pricing
 
-> **Sign in at [drogoz.network](https://drogoz.network/accounts/login/) to see pricing.** Your exact monthly cost, in seconds — no quotes, nothing hidden.
+> **One plan: $500 for 30 days.** VADIRA Access includes unlimited transactions, every ERC-20 token, full gas control, the encrypted key vault, multi-provider RPC access, 3,000+ global nodes, live gas monitoring, transaction history/export, the merchant directory and priority support. Top up with BTC, ETH, SOL, BNB, TRX, USDT or USDC through DrogoPay; activate from the prepaid balance in one click. Extending early adds 30 days to the remaining access period.
 
 Vadira is part of the **Utilities** bundle (−2%) — *Core utility tools* — and of **All In One** (−10%) — *Every product, best price*. Take several products together and save more: [Packages & bundles](https://drogoz.network/#packages) · [Pricing & calculator](https://drogoz.network/pricing/).
 
@@ -187,7 +214,7 @@ See Vadira in action before you pay — our agent gets in touch and walks you th
   <a href="https://t.me/drogoz"><img src="https://img.shields.io/badge/%40drogoz-1a1a1a?style=flat-square&logo=telegram&logoColor=white" alt="Telegram"/></a>
   <a href="mailto:hello@drogoz.network"><img src="https://img.shields.io/badge/hello%40drogoz.network-1a1a1a?style=flat-square&logo=gmail&logoColor=white" alt="Email"/></a>
   <br/><br/>
-  <sub><b>More from the network:</b> <a href="https://github.com/deepdrogo/drog-ai">Drog AI</a> · <a href="https://github.com/deepdrogo/mymask-ai">MyMask AI</a> · <a href="https://github.com/deepdrogo/replika">Replika</a> · <a href="https://github.com/deepdrogo/lidaro-ai">Lidaro AI</a> · <a href="https://github.com/deepdrogo/imperatori">IMPERATORI</a> · <a href="https://github.com/deepdrogo/zoi-talks">ZOI Talks</a> · <a href="https://github.com/deepdrogo/riderswap-io">RiderSwap</a> · <a href="https://github.com/deepdrogo/hyperblast-ai">HyperBlast AI</a> · <a href="https://github.com/deepdrogo/verifhub-ai">VerifHub AI</a> · <a href="https://github.com/deepdrogo/skriper-io">Skriper</a> · <a href="https://github.com/deepdrogo/mytasker">MyTasker</a> · <a href="https://github.com/deepdrogo/mamont-tech">Mamont</a> · <a href="https://github.com/deepdrogo/drogscan">DrogScan</a></sub>
+  <sub><b>More from the network:</b> <a href="https://github.com/deepdrogo/drog-ai">Drog AI</a> · <a href="https://github.com/deepdrogo/mymask-ai">MyMask AI</a> · <a href="https://github.com/deepdrogo/replika">Replika</a> · <a href="https://github.com/deepdrogo/lidaro-ai">Lidaro AI</a> · <a href="https://github.com/deepdrogo/imperatori">IMPERATORI</a> · <a href="https://github.com/deepdrogo/zoi-talks">ZOI Talks</a> · <a href="https://github.com/deepdrogo/riderswap-io">RiderSwap</a> · <a href="https://github.com/deepdrogo/hyperblast-ai">HyperBlast AI</a> · <a href="https://github.com/deepdrogo/verifhub-ai">VerifHub AI</a> · <a href="https://github.com/deepdrogo/skriper-io">Skriper</a> · <a href="https://github.com/deepdrogo/drogopay-com">DrogoPay</a> · <a href="https://github.com/deepdrogo/hashgram">Hashgram One</a> · <a href="https://github.com/deepdrogo/mytasker">MyTasker</a> · <a href="https://github.com/deepdrogo/mamont-tech">Mamont</a> · <a href="https://github.com/deepdrogo/drogscan">DrogScan</a></sub>
   <br/><br/>
   <sub>© 2026 Drogoz Network. All rights reserved. Provided strictly for lawful use — see the <a href="https://drogoz.network/legal/">Legal Center</a>. Each user is solely responsible for how they use the software.</sub>
 </div>
